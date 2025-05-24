@@ -4,17 +4,12 @@
 using namespace vex;
 
 int main() {
+    // Do not remove.
     setup();
 
-    wait(2, sec);
+    drive(12, 75);
+    turn(180, 90);
+    drive(12, 75);
 
-    drive(24);
-    turn(-90);
-    drive(24);
-    drive(-24);
-    turn(-90);
-    drive(24);
-    turn(180);
-
-    Drivetrain.stop(hold);
+    stop();
 };

@@ -10,14 +10,13 @@ Program the robot through the maze as fast as possible.
 ### How to Program
 
 Write your code in `main.cpp` and click the download button and then the run
-button to test your program. You have three functions at your disposal.
+button to test your program. You have four functions at your disposal.
 
-| Action   | Button                                 |
-| -------- | -------------------------------------- |
-| Download | ![Download Image](download-button.png) |
-| Run      | ![Run Image](run-button.png)           |
-
-Download:
+| Action                            | Button                                 |
+| --------------------------------- | -------------------------------------- |
+| Download                          | ![Download Image](download-button.png) |
+| Run                               | ![Run Image](run-button.png)           |
+| These are found in the bottom bar |                                        |
 
 ## Your Functions
 
@@ -26,3 +25,4 @@ Download:
 | **Drive** | `drive(4);` <br> `drive(4, 100);` <br> `drive(4, 65);`       | Drive forward a specified distance (in inches) at an _optional_ velocity (%) |
 | **Turn**  | `turn(90);` <br> `turn(90, 100);`                            | Turn the robot a specified number of degrees at an _optional_ velocity (%)   |
 | **Wait**  | `wait(2, sec);` <br> `wait(500, ms);` <br> `wait(3000, ms);` | Pause the program for a specified time (seconds or milliseconds)             |
+| **Stop**  | `stop();`                                                    | Stop the robot                                                               |

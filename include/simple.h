@@ -41,4 +41,9 @@ void imuThreadF() {
 void setup() {
     Drivetrain.setTurnThreshold(1);
     Drivetrain.setTurnConstant(0.4);
+    Drivetrain.setStopping(hold);
+};
+
+void stop() {
+    Drivetrain.stop();
 };
